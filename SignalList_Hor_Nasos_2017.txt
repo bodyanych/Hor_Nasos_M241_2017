@@ -1,0 +1,70 @@
+[DO]
+01,OpenZasVod                 ,Відкрити засувки води (розгрузка),Hor_Nasos,
+02,CloseZasVod                ,Закрити засувки води (розгрузка),Hor_Nasos,
+03,AvarSygn                   ,Резерв 03,Hor_Nasos,
+04,doRes04                    ,Резерв 04,Hor_Nasos,
+05,doRes05                    ,Резерв 05,Hor_Nasos,
+06,doRes06                    ,Резерв 06,Hor_Nasos,
+07,doRes07                    ,Резерв 07,Hor_Nasos,
+08,doRes08                    ,Резерв 08,Hor_Nasos,
+09,doRes09                    ,Резерв 09,Hor_Nasos,
+10,doRes10                    ,Резерв 10,Hor_Nasos,
+
+[OTHER]
+other,Hor_Nasos,AvarnSygn,Хоростків насососна станція, 
+
+[PROJ]
+Hor_Nasos,Хоростків Насососна станція,1920,990,
+
+[AI]
+01,PVodPodBur                 ,Тиск води на подачу буряка,Hor_Nasos,AvarnSygn,hour,
+02,PolZasVod                  ,Полож. засувки води (розгрузка),Hor_Nasos,AvarnSygn,hour,
+03,aiRes03                    ,Резерв 03,Hor_Nasos,AvarnSygn,hour,
+04,aiRes04                    ,Резерв 04,Hor_Nasos,AvarnSygn,hour,
+
+[DI]
+001,diRes1     	              ,Резерв 1,Hor_Nasos,AvarnSygn,
+002,diRes2                    ,Резерв 2,Hor_Nasos,AvarnSygn,
+003,diRes3                    ,Резерв 3,Hor_Nasos,AvarnSygn,
+004,diRes4                    ,Резерв 4,Hor_Nasos,AvarnSygn,
+005,diRes5                    ,Резерв 5,Hor_Nasos,AvarnSygn,
+006,diRes6                    ,Резерв 6,Hor_Nasos,AvarnSygn,
+007,diRes7                    ,Резерв 7,Hor_Nasos,AvarnSygn,
+008,diRes8                    ,Резерв 8,Hor_Nasos,AvarnSygn,
+009,diRes9                    ,Резерв 9,Hor_Nasos,AvarnSygn,
+010,KontrRezhUpr              ,Контроль режиму управління,Hor_Nasos,AvarnSygn,
+011,PolZasVodOpen             ,Полож. засувки води (розгрузка)-(відкрито),Hor_Nasos,AvarnSygn,
+012,PolZasVodClosed           ,Полож. засувки води (розгрузка)-(закрито),Hor_Nasos,AvarnSygn,
+013,diRes13                   ,Резерв 13,Hor_Nasos,AvarnSygn,
+014,diRes14                   ,Резерв 14,Hor_Nasos,AvarnSygn,
+
+[AO]
+01,aoRes01                    ,Резерв 01,Hor_Nasos,
+02,aoRes02                    ,Резерв 02,Hor_Nasos,
+
+[LOOPS]
+01,regPRozgr                  ,Регулятор тиску (розгрузка),Hor_Nasos,
+02,regRes02                   ,Резерв Регулятор 02,Hor_Nasos,
+03,regRes03                   ,Резерв Регулятор 03,Hor_Nasos,
+04,regRes04                   ,Резерв Регулятор 04,Hor_Nasos,
+05,regRes05                   ,Резерв Регулятор 05,Hor_Nasos,
+06,regRes06                   ,Резерв Регулятор 06,Hor_Nasos,
+07,regRes07                   ,Резерв Регулятор 07,Hor_Nasos,
+08,regRes07                   ,Резерв Регулятор 08,Hor_Nasos,
+
+
+
+[LATCH2DI2DO]
+01,KlpPodVod                  ,Вик. механізм упр. клапаном подачі води,Hor_Nasos,AvarnSygn,latch,
+02,latchRes02                 ,ВМ Резерв 02,Hor_Nasos,AvarnSygn,latch,
+03,latchRes03                 ,ВМ Резерв 03,Hor_Nasos,AvarnSygn,latch,
+04,latchRes04                 ,ВМ Резерв 04,Hor_Nasos,AvarnSygn,latch,
+05,latchRes05                 ,ВМ Резерв 05,Hor_Nasos,AvarnSygn,latch,
+06,motorRes06                 ,ВМ Резерв 06,Hor_Nasos,AvarnSygn,motor,
+07,motorRes07                 ,ВМ Резерв 07,Hor_Nasos,AvarnSygn,motor,
+08,motorRes08                 ,ВМ Резерв 08,Hor_Nasos,AvarnSygn,motor,
+
+
+
+
+
